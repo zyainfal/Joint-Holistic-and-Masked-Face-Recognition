@@ -20,7 +20,7 @@ Models are tested on popular holistic face recognition benchmarks, including LFW
 
 In this table, $^{\pm}$ denotes the model trained on pure holistic data and the best available results are quoted from previous works. Results include verification accuracy on LFW, CFP-FP, AGEDB-30, CALFW, and CPLFW. RFW denotes the mean accuracy among Africans, Asians, Caucasians, and Indians. The column "Mean" refers to the mean accuracy among previous columns for comparison simplicity. When evaluating on MegaFace,  "Id"' refers to the rank-1 for identification rate with 1M distractors and "Ver" refers to the face verification TAR@FPR=1e-6. Finally, verification TAR@FPR=1e-4 is reported on IJB-B and IJB-C. 
 
-*Please note that previous models are only trained on holistic faces and have not been tested on masked face recognition benchmarks.*
+*Please note that previous models are only trained on holistic faces and have not been tested on masked face recognition benchmarks. More experimental results will be released in the paper.*
 
 ### Masked Benchmarks
 Masked LFW, Masked AGEDB-30, and Masked CFP-FP introduced by [Simulated Masked Face Recognition Datasets](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset). The masked face images are resized to $112 \times 112$ and the test protocol rigidly follows the original version of LFW, AGEDB-30, and CFP-FP. These benchmarks are synthesized for masked face verification.
