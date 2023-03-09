@@ -11,12 +11,16 @@ The paper is currently under review and codes will be released upon acceptance.
 ------
 
 ## Benchmarks & Results
+All models are trained with 10% random masked faces on WebFace42M. The face masking tool is FMA-3D from [FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo)
+
 ### Holistic Data
 Models are tested on popular holistic face recognition benchmarks, including LFW, AgeDB-30, CFP-FP, CALFW, CPLFW, RFW, IJB-B, and IJB-C for holistic face verification; and on MegaFace for both holistic face identification and verification.
 
 ![t1](https://github.com/zyainfal/Joint-Holistic-and-Masked-Face-Recognition/blob/main/fig/t1.PNG)
 
-In this table, $^{\pm}$ denotes the model trained on pure holistic data and the best available results are quoted from previous works. Results include verification accuracy on LFW, CFP-FP, AGEDB-30, CALFW, and CPLFW. RFW denotes the mean accuracy among Africans, Asians, Caucasians, and Indians. The column "Mean" refers to the mean accuracy among previous columns for comparison simplicity. When evaluating on MegaFace,  "Id"' refers to the rank-1 for identification rate with 1M distractors and "Ver" refers to the face verification TAR@FPR=1e-6. Finally, verification TAR@FPR=1e-4 is reported on IJB-B and IJB-C. Please note that previous models have not been tested on masked face recognition benchmarks.
+In this table, $^{\pm}$ denotes the model trained on pure holistic data and the best available results are quoted from previous works. Results include verification accuracy on LFW, CFP-FP, AGEDB-30, CALFW, and CPLFW. RFW denotes the mean accuracy among Africans, Asians, Caucasians, and Indians. The column "Mean" refers to the mean accuracy among previous columns for comparison simplicity. When evaluating on MegaFace,  "Id"' refers to the rank-1 for identification rate with 1M distractors and "Ver" refers to the face verification TAR@FPR=1e-6. Finally, verification TAR@FPR=1e-4 is reported on IJB-B and IJB-C. 
+
+*Please note that previous models are only trained on holistic faces and have not been tested on masked face recognition benchmarks.*
 
 ### Masked Data
 Masked LFW, Masked AGEDB-30, and Masked CFP-FP introduced by [Simulated Masked Face Recognition Datasets](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset). The masked face images are resized to $112 \times 112$ and the test protocol rigidly follows the original version of LFW, AGEDB-30, and CFP-FP. These benchmarks are synthesized for masked face verification.
