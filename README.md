@@ -13,7 +13,7 @@ The paper is currently under review and codes will be released upon acceptance.
 ## Benchmarks & Results
 All models are trained with 10% random masked faces on WebFace42M. The face masking tool is FMA-3D from [FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo).
 
-### Holistic Data
+### Holistic Benchmarks
 Models are tested on popular holistic face recognition benchmarks, including LFW, AgeDB-30, CFP-FP, CALFW, CPLFW, RFW, IJB-B, and IJB-C for holistic face verification; and on MegaFace for both holistic face identification and verification.
 
 ![t1](https://github.com/zyainfal/Joint-Holistic-and-Masked-Face-Recognition/blob/main/fig/t1.PNG)
@@ -22,7 +22,7 @@ In this table, $^{\pm}$ denotes the model trained on pure holistic data and the 
 
 *Please note that previous models are only trained on holistic faces and have not been tested on masked face recognition benchmarks.*
 
-### Masked Data
+### Masked Benchmarks
 Masked LFW, Masked AGEDB-30, and Masked CFP-FP introduced by [Simulated Masked Face Recognition Datasets](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset). The masked face images are resized to $112 \times 112$ and the test protocol rigidly follows the original version of LFW, AGEDB-30, and CFP-FP. These benchmarks are synthesized for masked face verification.
 
 [Real-world Masked Face Verification Dataset](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset). It contains 4015 face images of 426 people, which are organized into 7178 masked and non-masked sample pairs, including 3589 pairs of the same identity and 3589 pairs of different identities. The dataset contains real masked faces for verification.
