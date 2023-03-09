@@ -29,7 +29,7 @@ Masked LFW, Masked AGEDB-30, and Masked CFP-FP introduced by [Simulated Masked F
 
 [PKU-Masked-Face](https://pkuml.org/resources/pku-masked-face-dataset.html) contains 10,301 face images of 1,018 identities, each of which has masked and holistic face images with various orientations and mask types. Following their experiments, the frontal holistic faces are used as the gallery and frontal masked faces are used as the probe set. The identification performance is measured by the rank-1 accuracy of the masked faces.
 
-[MegaFace-Mask](https://github.com/JDAI-CV/FaceX-Zoo/tree/main/test_protocol), provides the pair list and tools for masking faces in the probe set, Facescrub with 8 different types of masks. And the gallery set, MegaFace distractors, remains holistic. The benchmark is built for both masked face verification and identification.
+[MegaFace-Mask](https://github.com/JDAI-CV/FaceX-Zoo/tree/main/test_protocol) provides the pair list and tools for masking faces in the probe set (Facescrub) with 8 different types of masks. And the gallery set (MegaFace distractors) remains holistic. The benchmark is built for both masked face verification and identification.
 
 ![t2](https://github.com/zyainfal/Joint-Holistic-and-Masked-Face-Recognition/blob/main/fig/t2.PNG)
 
