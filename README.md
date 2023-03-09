@@ -1,4 +1,4 @@
-# Joint-Holistic-and-Masked-Face-Recognition
+# Joint Holistic and Masked Face Recognition
 
 The official implementation of the paper Joint Holistic and Masked Face Recognition.
 
