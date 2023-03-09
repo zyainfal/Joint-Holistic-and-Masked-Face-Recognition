@@ -11,7 +11,7 @@ The paper is currently under review and codes will be released upon acceptance.
 ------
 
 ## Benchmarks & Results
-All models are trained with 10% random masked faces on WebFace42M. The face masking tool is FMA-3D from [FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo).
+All models are trained on WebFace42M, where 10% faces are randomly masked by a face masking tool, FMA-3D, from [FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo).
 
 ### Holistic Benchmarks
 Models are tested on popular holistic face recognition benchmarks, including LFW, AgeDB-30, CFP-FP, CALFW, CPLFW, RFW, IJB-B, and IJB-C for holistic face verification; and on MegaFace for both holistic face identification and verification.
