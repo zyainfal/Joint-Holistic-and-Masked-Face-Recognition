@@ -31,6 +31,6 @@ Masked LFW, Masked AGEDB-30, and Masked CFP-FP introduced by [Simulated Masked F
 
 [MegaFace-Mask](https://github.com/JDAI-CV/FaceX-Zoo/tree/main/test_protocol) provides the pair list and tools for masking faces in the probe set (Facescrub) with 8 different types of masks. And the gallery set (MegaFace distractors) remains holistic. The benchmark is built for both masked face verification and identification.
 
-![t2](https://github.com/zyainfal/Joint-Holistic-and-Masked-Face-Recognition/blob/main/fig/t2.PNG)
+![t3](https://github.com/zyainfal/Joint-Holistic-and-Masked-Face-Recognition/blob/main/fig/t3.PNG)
 
 The verification accuracy on Masked-LFW, Masked CFP-FP, and Masked AGEDB-30 are averaged in the Column "SMFRD". The verification accuracy evaluated on RMFVD and the rank-1 identification rate tested on PKU-Masked-Face are reported as follows. When evaluating on MegaFace-Mask,  "`Id" refers to the rank-1 for identification rate with 1M distractors and "Ver" refers to the face verification TAR@FPR=1e-6.
