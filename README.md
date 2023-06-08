@@ -1,5 +1,7 @@
 # Joint Holistic and Masked Face Recognition
 
+![ov](https://github.com/zyainfal/Joint-Holistic-and-Masked-Face-Recognition/blob/main/fig/overview.png)
+
 The official implement of paper ''[Joint Holistic and Masked Face Recognition](https://ieeexplore.ieee.org/abstract/document/10138097)''.
 
 ## Abstract 
