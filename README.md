@@ -1,6 +1,6 @@
 # Joint Holistic and Masked Face Recognition
 
-The Official implement of paper ''[Joint Holistic and Masked Face Recognition](https://ieeexplore.ieee.org/abstract/document/10138097)''.
+The official implement of paper ''[Joint Holistic and Masked Face Recognition](https://ieeexplore.ieee.org/abstract/document/10138097)''.
 
 ## Abstract 
 
