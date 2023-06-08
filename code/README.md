@@ -1,7 +1,3 @@
-![ov](https://github.com/zyainfal/Joint-Holistic-and-Masked-Face-Recognition/blob/main/fig/overview.png)
-
-Official implement of paper ``[Joint Holistic and Masked Face Recognition](https://ieeexplore.ieee.org/abstract/document/10138097)''
-
 # Enviroment
 Please check `env.yml` to build the enviroment by anaconda3.
 
