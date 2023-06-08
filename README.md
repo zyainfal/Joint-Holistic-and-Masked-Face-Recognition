@@ -1,8 +1,6 @@
 # Joint Holistic and Masked Face Recognition
 
-The official implementation of the paper Joint Holistic and Masked Face Recognition.
-
-The paper is currently under review and codes will be released upon acceptance.
+The Official implements of paper ``[Joint Holistic and Masked Face Recognition](https://ieeexplore.ieee.org/abstract/document/10138097)''.
 
 ## Abstract 
 
