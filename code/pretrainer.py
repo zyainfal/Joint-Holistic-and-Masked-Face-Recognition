@@ -57,10 +57,10 @@ def get_args():
                         help='Drop path rate (default: 0.0 for mae, 0.1 for splitmask)')
     
     parser.add_argument('--pool', default='mean', type=str,
-                        help='pool type: [mean, adj] ')
+                        help='pool type: [mean, adj, cls] ')
 
     parser.add_argument('--ntype', default='prenorm', type=str,
-                        help='pool type: [prenorm, postnorm, deepnorm] ')
+                        help='normalization type: [prenorm, postnorm, deepnorm] ')
                     
 
     # Optimizer parameters
