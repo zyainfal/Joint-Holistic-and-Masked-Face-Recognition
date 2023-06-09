@@ -59,10 +59,10 @@ def get_args():
                         help='Drop path rate (default: 0.1)')
     
     parser.add_argument('--pool', default='mean', type=str,
-                        help='pool type: [mean, adj] ')
+                        help='pool type: [mean, adj, cls] ')
    
     parser.add_argument('--ntype', default='deepnorm', type=str,
-                        help='pool type: [prenorm, postnorm, deepnorm] ')
+                        help='normalization type: [prenorm, postnorm, deepnorm] ')
     
     parser.add_argument('--transform_layer', default=12, type=int,
                         help='number of layers that has prompts')
