@@ -10,7 +10,7 @@ We provide training code for training both FaceT-B and IR100 on MS1MV2, and eval
 
 All masked faces are aligned by RetinaFace, while some evaluation faces are poorly aligned due to heavily occlusion. 
 
-Here are some examples for training the model:
+Here are some examples for training the model and the evaluation results will be recorded in the log file:
 
 
 ```
