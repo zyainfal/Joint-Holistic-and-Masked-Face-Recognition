@@ -3,7 +3,7 @@ Please check `env.yml` to build the enviroment by anaconda3.
 
 # How to use
 ## Dataset
-Training data (MS1MV2, with masked faces) and evaluation data (LFW,  AGE-DB, CFP-FP, SMFRD , and RMFVD) are zipped in [Google Drive](https://drive.google.com/file/d/1nR1gd9u4LxntACMe50RfgFfPjRmrtgYT/view?usp=sharing) and [Baidu Pan](https://pan.baidu.com/s/1zBFL85oXf5afKeJQmiMumw) (access code: vbjc).
+Training data (MS1MV2, with masked faces) and evaluation data (LFW,  AGE-DB, CFP-FP, SMFRD , and RMFVD) are zipped in [~~Google Drive~~](https://drive.google.com/file/d/1nR1gd9u4LxntACMe50RfgFfPjRmrtgYT/view?usp=sharing) and [Baidu Pan](https://pan.baidu.com/s/1zBFL85oXf5afKeJQmiMumw) (access code: vbjc).
 
 ## Training/Evaluation
 We provide training code for training both FaceT-B and IR100 on MS1MV2, and evaluation code during the training for LFW, AGE-DB, CFP-FP, SMFRD (masked LFW, AGE-DB, and CFP-FP), and RMFVD.
